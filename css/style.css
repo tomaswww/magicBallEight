@@ -28,17 +28,8 @@
   background: radial-gradient(circle at 49px 52px, white, #ffffffb5);
 }
 
-/* #theBallText {
-  display: flex;
-  align-items: center;
-  transform: rotate(90deg);
-  border-top: 50px solid transparent;
-  border-left: 100px solid #2a1ee926;
-  border-bottom: 50px solid transparent;
-  } */
-
-  /* others solution */
-  #theBallText {
+/* #theBallText */
+#theBallText {
   width: 0px;
   height: 0px;
   border-style: inset;
@@ -52,14 +43,14 @@
   -o-transform: rotate(360deg);
 }
 
-  #theBallText p {
-    text-align: center;
-    top: 45px;
-    left: -47px;
-    position: relative;
-    width: 93px;
-    height: 93px;
-    margin: 0px;
+#theBallText p {
+  text-align: center;
+  top: 45px;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
 }
 
 /* footer style things */
