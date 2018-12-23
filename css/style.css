@@ -8,7 +8,7 @@ header {
   margin-top: 0%;
   margin-bottom: 10px;
   text-align: center;
-  height:100%;
+  height: 100%;
 }
 
 #titleHeader {
@@ -40,12 +40,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  border-style: solid;
+  border-style: groove;
+  border-color: #ffffff96;
   border-radius: 50%;
-  width: 30%;
-  height: 30%;
-  background: radial-gradient(circle at 49px 52px, white, #ffffffb5);
+  width: 45%;
+  height: 45%;
+  transform: rotate(180deg);
+background: black;
+  /* background: radial-gradient(circle at 49px 52px, #302e2e, #1d1919b5); */
 }
 
 /* #theBallText */
@@ -53,19 +55,16 @@ header {
   width: 0px;
   height: 0px;
   border-style: inset;
-  border-width: 0 60px 80px 60px;
-  border-color: transparent transparent #2a1ee926 transparent;
+  border-width: 0 75px 110px 75px;
+  border-color: transparent transparent #0025ff transparent;
   float: left;
-  transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
 }
 
 #theBallText p {
   text-align: center;
-  top: 45px;
+  color: #7fd5fd;
+  transform: rotate(180deg);
+  top: 15px;
   left: -47px;
   position: relative;
   width: 93px;
