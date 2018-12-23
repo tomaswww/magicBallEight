@@ -1,3 +1,21 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* header */
+header {
+  background-color: #2a1ee926;
+  margin-top: 0%;
+  margin-bottom: 10px;
+  text-align: center;
+  height:100%;
+}
+
+#titleHeader {
+  color: #444444;
+  margin-top: 0%;
+}
+
 /* game container style */
 #gameContainer {
   display: flex;
