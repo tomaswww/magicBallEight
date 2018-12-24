@@ -24,13 +24,27 @@ var answers = ["It is certain.",
 // model
 function shakeAndBake(array){
   var pressBtn = document.getElementById("buttnSAB");
-  pressBtn.addEventListener("click", function() {
+    pressBtn.addEventListener("click", function() {
     var indexAnswer = Math.round(Math.random() * (answers.length - 1));
     var setAnswer = document.getElementById("targetTextDisplay");
+    shakeBall();
     setAnswer.innerHTML = answers[indexAnswer];
     // here the function to shake and randomly select answer
   })
 };
+
+function shakeBall(){
+  var shakingIt = document.getElementById("theBall");
+  shakingIt.classList.add("animated","shake");
+  var popingUp = document.getElementById("theBallText");
+  popingUp.classList.add("animated","fadeIn","delay-1s");
+  setTimeout(function() {
+    var shakingIt = document.getElementById("theBall");
+    shakingIt.classList.remove("animated","shake");
+    var popingUp = document.getElementById("theBallText");
+    popingUp.classList.remove("animated","fadeIn","delay-1s");
+}, 1500);
+  }
 
 
 // view
