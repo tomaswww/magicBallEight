@@ -11,12 +11,12 @@ The ultimate goal of this program is for me to develop and practice my programin
 
 ## Documentation
 
-There's no need for documentation for this project. The intended purpose was to base this game on purely HTML CSS and JAVASCRIPT, it requires [Animate.css](https://daneden.github.io/animate.css/).
+There's no need for documentation for this project. The intended purpose was to base this game on purely HTML CSS and JAVASCRIPT, it requires [Animate.css](https://daneden.github.io/animate.css/) to handle animations.
 
 ## Usability
 
 All game components are usable across modern desktop, tablet, and phone browsers without any installation required.
-You need to download de repository, open the index.html file on your browser and.. voila! you'll have to ask a question and when you are ready click on the Shake and Bake! button for the magic answer.
+You need to download de repository, open the index.html file on your browser and.. voila! you'll have to ask a question and when you are ready click on the Shake and Bake! button for the magic answer (for more info check github repo for [animate.css](https://github.com/daneden/animate.css)).
 
 ## Dependencies
 
