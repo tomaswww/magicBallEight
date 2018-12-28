@@ -20,7 +20,7 @@ You need to download de repository, open the index.html file on your browser and
 
 ## Dependencies
 
--Google Fonts for Sans Pro (https://fonts.googleapis.com/css?family=Source+Sans+Pro)
+-Google Fonts for Sans Pro (https://fonts.googleapis.com/css?family=Source+Sans+Pro)<br/>
 -Animate.css for animations (https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css)
 
 
